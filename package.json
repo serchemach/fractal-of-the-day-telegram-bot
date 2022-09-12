@@ -2,7 +2,7 @@
   "name": "fractal-of-the-day-telegram-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "prestart": "npm run build",
@@ -22,6 +22,7 @@
   "dependencies": {
     "@types/node": "^18.7.16",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "dotenv": "^16.0.2",
     "eslint": "^8.23.1",
     "prettier": "^2.7.1",
     "telegraf": "^4.9.1",
